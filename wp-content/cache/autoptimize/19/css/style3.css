@@ -247,7 +247,9 @@ textarea:focus:-ms-input-placeholder {
 
 .pricing-items .pricing-item .amount .dollar,
 .pricing-items .pricing-item .amount .period {
-    color: rgba(255, 255, 255, .9)
+    color: rgba(88, 88, 88, 0.678);
+    font-size: .8rem;
+    font-style: italic;
 }
 
 .pricing-items .pricing-item .amount .period {
