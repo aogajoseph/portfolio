@@ -566,7 +566,7 @@ input[type=submit]:hover {
 .revs-item .text:before,
 .revs-item .text:after,
 .revs-two-item .text:after {
-    background: url(//ryancv.bslthemes.com/app-developer/wp-content/themes/ryancv/assets/css/../images/quote_d.svg) no-repeat;
+    background: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../images/quote_d.svg) no-repeat;
     background-size: contain
 }
 
