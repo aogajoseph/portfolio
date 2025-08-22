@@ -985,14 +985,14 @@ form.submitting .wpcf7-spinner {
 
 @font-face {
     font-family: star;
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff2) format("woff2"), url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype");
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff2) format("woff2"), url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: WooCommerce;
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff2) format("woff2"), url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype");
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff2) format("woff2"), url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
@@ -1053,7 +1053,7 @@ p.demo_store a {
     margin-top: -.5em;
     content: "";
     animation: spin 1s ease-in-out infinite;
-    background: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
+    background: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
     background-size: cover;
     line-height: 1;
     text-align: center;
@@ -1072,7 +1072,7 @@ p.demo_store a {
     margin-top: -.5em;
     content: "";
     animation: spin 1s ease-in-out infinite;
-    background: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
+    background: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
     background-size: cover;
     line-height: 1;
     text-align: center;
@@ -3634,7 +3634,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/visa.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/visa.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
@@ -3646,7 +3646,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/mastercard.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/mastercard.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
@@ -3658,7 +3658,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/laser.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/laser.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
@@ -3670,7 +3670,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/diners.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/diners.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
@@ -3682,7 +3682,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/maestro.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/maestro.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
@@ -3694,7 +3694,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/jcb.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/jcb.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
@@ -3706,7 +3706,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/amex.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/amex.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
@@ -3718,7 +3718,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/discover.svg)
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/discover.svg)
 }
 
 #add_payment_method #payment div.payment_box span.help,
@@ -6094,7 +6094,7 @@ dd {
 .card-started .profile .social a:hover .fab,
 .card-started .profile .social a:hover .fas,
 .card-started .profile .social a:hover .fa {
-    color: #78cc6d;
+    color: green;
 }
 
 .card-started .profile .lnk.active.discover .arrow {
@@ -8566,7 +8566,7 @@ body .clients-infinite .swiper-wrapper {
     top: 3px;
     width: 14px;
     height: 14px;
-    background: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/quote.svg) no-repeat;
+    background: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/quote.svg) no-repeat;
     background-size: contain;
     opacity: .65
 }
@@ -12882,7 +12882,7 @@ body.page-template-elementor_canvas {
 .body-style-textured .custom-footer,
 .body-style-textured .mfp-wrap.popup-box-inline,
 .body-style-textured .preloader {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg) !important;
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg) !important;
     background-size: 50px 50px !important
 }
 
@@ -13023,42 +13023,19 @@ td {
 }
 
 .card-started .profile.full-style .social a .ion,
-.card-started .profile.full-style .social a .fa-linkedin,
-.card-started .profile.full-style .social a .fas {
-    color: #0077B5;
-}
-
-.card-started .profile.full-style .social a .ion,
 .card-started .profile.full-style .social a .fa-whatsapp,
 .card-started .profile.full-style .social a .fas {
-    color: green;
+    color: #181717;
 }
 
 .card-started .profile.full-style .social a .ion,
-.card-started .profile.full-style .social a .fa-x-twitter,
+.card-started .profile.full-style .social a .fa-envelope,
 .card-started .profile.full-style .social a .fas {
-    color: #14171A;
-}
-
-.card-started .profile.full-style .social a .ion,
-.card-started .profile.full-style .social a .fa-facebook,
-.card-started .profile.full-style .social a .fas {
-    color: #1877F2;
-}
-
-.card-started .profile.full-style .social a .ion,
-.card-started .profile.full-style .social a .fa-instagram,
-.card-started .profile.full-style .social a .fas {
-    color: #E4405F;
+    color: #181717;
 }
 
 .card-started .profile.full-style .social,
 .card-started .profile.full-style .social a .fa-github:hover {
-    color: grey;
-}
-
-.card-started .profile.full-style .social,
-.card-started .profile.full-style .social a .fa-linkedin:hover {
     color: grey;
 }
 
@@ -13068,17 +13045,12 @@ td {
 }
 
 .card-started .profile.full-style .social,
-.card-started .profile.full-style .social a .fa-x-twitter:hover {
+.card-started .profile.full-style .social a .fa-phone:hover {
     color: grey;
 }
 
 .card-started .profile.full-style .social,
-.card-started .profile.full-style .social a .fa-facebook:hover {
-    color: grey;
-}
-
-.card-started .profile.full-style .social,
-.card-started .profile.full-style .social a .fa-instagram:hover {
+.card-started .profile.full-style .social a .fa-envelope:hover {
     color: grey;
 }
 
@@ -13505,7 +13477,7 @@ td {
 .textured-icons-style .fuct-items .fuct-item .icon,
 .textured-icons-style .resume-title .icon,
 .textured-icons-style .skill-title .icon {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
     background-size: 50px 50px
 }
 
@@ -13536,17 +13508,17 @@ body.body-style-dark .textured-icons-style .pricing-items .pricing-item .icon,
 body.body-style-dark .textured-icons-style .fuct-items .fuct-item .icon,
 body.body-style-dark .textured-icons-style .resume-title .icon,
 body.body-style-dark .textured-icons-style .skill-title .icon {
-    background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
+    background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
     background-size: 50px 50px
 }
 
 @media (max-width:680px) {
     .theme-style-textured .header {
-        background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
+        background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
         background-size: 50px 50px
     }
     body.body-style-dark .theme-style-textured .header {
-        background-image: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
+        background-image: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/noise-texture-dark.svg);
         background-size: 50px 50px
     }
 }
@@ -14269,7 +14241,7 @@ body.body-style-dark .rprof-after path:nth-child(3) {
     position: absolute;
     width: 14px;
     height: 14px;
-    background: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/images/quote.svg) no-repeat;
+    background: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/images/quote.svg) no-repeat;
     background-size: contain;
     opacity: .65;
     left: auto;
@@ -15784,8 +15756,8 @@ Tags: editor-style, featured-images, sticky-post, threaded-comments, translation
 
 @font-face {
     font-family: "Ionicons";
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../fonts/ionicons.eot?v=2.0.1);
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../fonts/ionicons.eot?v=2.0.1#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../fonts/ionicons.ttf?v=2.0.1) format("truetype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../fonts/ionicons.woff?v=2.0.1) format("woff"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../fonts/ionicons.svg?v=2.0.1#Ionicons) format("svg");
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../fonts/ionicons.eot?v=2.0.1);
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../fonts/ionicons.eot?v=2.0.1#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../fonts/ionicons.ttf?v=2.0.1) format("truetype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../fonts/ionicons.woff?v=2.0.1) format("woff"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../fonts/ionicons.svg?v=2.0.1#Ionicons) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -26120,22 +26092,6 @@ button.swiper-pagination-bullet {
     content: "\f070"
 }
 
-.fa-facebook:before {
-    content: "\f09a"
-}
-
-.fa-facebook-f:before {
-    content: "\f39e"
-}
-
-.fa-facebook-messenger:before {
-    content: "\f39f"
-}
-
-.fa-facebook-square:before {
-    content: "\f082"
-}
-
 .fa-fan:before {
     content: "\f863"
 }
@@ -27180,14 +27136,6 @@ button.swiper-pagination-bullet {
     content: "\e080"
 }
 
-.fa-instagram:before {
-    content: "\f16d"
-}
-
-.fa-instagram-square:before {
-    content: "\e055"
-}
-
 .fa-instalod:before {
     content: "\e081"
 }
@@ -27430,14 +27378,6 @@ button.swiper-pagination-bullet {
 
 .fa-link:before {
     content: "\f0c1"
-}
-
-.fa-linkedin:before {
-    content: "\f08c"
-}
-
-.fa-linkedin-in:before {
-    content: "\f0e1"
 }
 
 .fa-linode:before {
@@ -28104,27 +28044,27 @@ button.swiper-pagination-bullet {
     content: "\f511"
 }
 
-.fa-phone:before {
+.fa-whatsapp:before {
     content: "\f095"
 }
 
-.fa-phone-alt:before {
+.fa-whatsapp-alt:before {
     content: "\f879"
 }
 
-.fa-phone-slash:before {
+.fa-whatsapp-slash:before {
     content: "\f3dd"
 }
 
-.fa-phone-square:before {
+.fa-whatsapp-square:before {
     content: "\f098"
 }
 
-.fa-phone-square-alt:before {
+.fa-whatsapp-square-alt:before {
     content: "\f87b"
 }
 
-.fa-phone-volume:before {
+.fa-whatsapp-volume:before {
     content: "\f2a0"
 }
 
@@ -30230,8 +30170,8 @@ button.swiper-pagination-bullet {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.eot);
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.woff2) format("woff2"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.woff) format("woff"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.ttf) format("truetype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.eot);
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.woff2) format("woff2"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.woff) format("woff"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.ttf) format("truetype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -30244,8 +30184,8 @@ button.swiper-pagination-bullet {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.eot);
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.woff2) format("woff2"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.woff) format("woff"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.ttf) format("truetype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.eot);
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.woff2) format("woff2"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.woff) format("woff"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.ttf) format("truetype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .far {
@@ -30258,8 +30198,8 @@ button.swiper-pagination-bullet {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.eot);
-    src: url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.woff2) format("woff2"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.woff) format("woff"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.ttf) format("truetype"), url(//ryancv.bslthemes.com/game-developer/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.eot);
+    src: url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.woff2) format("woff2"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.woff) format("woff"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.ttf) format("truetype"), url(//ryancv.bslthemes.com/project-manager/wp-content/themes/ryancv/assets/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
