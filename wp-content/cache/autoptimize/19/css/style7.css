@@ -28240,6 +28240,16 @@ button.swiper-pagination-bullet {
     content: "\f542"
 }
 
+.proj-subtitle {
+    margin-bottom: -1.5rem;
+    font-size: 1.1rem;
+}
+
+.proj-subtitle2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
 .project-link {
     color: greenyellow;
     font-style: italic;
