@@ -3,16 +3,15 @@ import Section from "../components/section";
 export default function SkillsSection() {
     const skills = [
         "React.js",
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
+        "npm",
+        "React Native",
+        "Expo",
         "Node.js",
-        "PostgreSQL",
-        "MySQL",
+        "TypeScript",
+        "Webpack",
         "Git",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "API Integration",
+        "System Design"
     ];
 
     return (
