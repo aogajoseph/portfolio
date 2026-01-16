@@ -1,112 +1,150 @@
+import { Download } from "lucide-react";
+
 export default function NeuroCareCaseStudy() {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-12 space-y-12">
+    <section className="max-w-5xl mx-auto px-6 py-12 space-y-10">
 
-      {/* Hero / Header */}
-      <header className="text-center">
-        <h1 className="text-4xl font-extrabold">Neuro Care</h1>
-        <p className="mt-4 text-lg text-gray-600">
-          A neurological health information and support platform
-        </p>
+      {/* Header with Logo */}
+      <header className="flex items-center gap-4">
+        <img
+          src="/assets/ncf-icon.png"
+          alt="Neuro Care Foundation"
+          className="h-10 w-10 rounded-md"
+        />
+        <div>
+          <h1 className="text-2xl font-semibold text-[#aa2078]">
+            Neuro Care
+          </h1>
+          <p className="text-sm text-gray-500">
+            A neurological health information & support platform.
+          </p>
+        </div>
       </header>
 
       {/* Overview */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Overview</h2>
-        <p className="text-gray-700">
-          Neuro Care is a platform designed to centralize and organize neurological health information,
-          enabling individuals, caregivers, and community organizations to access trusted resources,
-          navigate support systems, and connect with relevant programs. It is intentionally structured
-          to prioritize clarity, maintainability, and long-term use.
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+        <h2 className="text-lg font-semibold text-[#aa2078] mb-2">Overview</h2>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          Neuro Care is a platform designed to centralize neurological health information,
+          helping individuals, caregivers and community organizations access trusted resources,
+          navigate support systems and connect with relevant programs. The platform prioritizes
+          clarity, maintainability and long-term sustainability.
         </p>
-      </section>
+      </div>
 
       {/* Problem */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Problem</h2>
-        <p className="text-gray-700">
-          Navigating neurological health resources is fragmented. People and families often struggle
-          to find reliable information and community support, and organizations lack a unified space
-          to list resources that are easy to share and maintain. Neuro Care aims to bridge that gap
-          without making clinical claims, focusing instead on access, structure, and clarity.
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+        <h2 className="text-lg font-semibold text-[#ff0000] mb-2">The Problem</h2>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          Neurological health resources are fragmented. Families struggle to find reliable
+          information, while organizations lack a unified space to present and maintain their
+          offerings. Neuro Care addresses this gap without making clinical claims, focusing on
+          access, structure and clarity.
         </p>
-      </section>
+      </div>
 
       {/* Approach */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Approach</h2>
-        <p className="text-gray-700">
-          The platform was built with a human-centered approach and strict architectural contracts between
-          frontend and backend. Starting with foundational systems (navigation, authentication, configuration,
-          and localization), development follows a phased strategy to mitigate technical debt and ensure
-          long-term sustainability.
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-3">
+        <h2 className="text-lg font-semibold text-[#008000]">Our Approach</h2>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          The platform is built with a human-centered approach and strict architectural contracts
+          between frontend and backend. Foundational systems are established first, followed by
+          phased feature delivery to reduce technical debt.
         </p>
-
-        <ul className="list-disc list-inside text-gray-700">
-          <li>Backend-driven UI and content flow</li>
-          <li>Clear navigation and identity structures</li>
-          <li>Preference and localization systems</li>
-          <li>Progressive feature delivery with minimal disruption</li>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Backend-driven UI and content flow.</li>
+          <li>Clear navigation and identity structures.</li>
+          <li>Localization and preference management.</li>
+          <li>Incremental, low-risk feature rollout.</li>
         </ul>
-      </section>
+      </div>
 
-      {/* Features & Architecture */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Core Features</h2>
-        <ul className="list-disc list-inside text-gray-700">
-          <li>Informational Resource Pages</li>
-          <li>Community and Organization Listings</li>
-          <li>Navigation with Anonymous & Authenticated Flows</li>
-          <li>Localization & Preference Support</li>
+      {/* Features & Tech */}
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-3">
+        <h2 className="text-lg font-semibold text-[#aa2078]">Core Features</h2>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Curated informational resource pages.</li>
+          <li>Community and organization listings.</li>
+          <li>Anonymous and authenticated user flows.</li>
+          <li>Localization and user preferences.</li>
         </ul>
 
-        <h3 className="text-xl font-semibold">Tech Stack & Architecture</h3>
-        <p className="text-gray-700">
-          Built with Expo and React Native for cross-platform performance, backed by clear API contracts
-          to ensure reliable data driving the UI. Emphasizes maintainability, modularity, and readiness
-          for future expansion.
+        <h3 className="text-sm font-medium text-gray-800 mt-4">
+          Tech Stack & Architecture
+        </h3>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          Built with Expo and React Native, supported by backend-authoritative API contracts.
+          The architecture emphasizes modularity, maintainability and readiness for future growth.
         </p>
-      </section>
+      </div>
 
-      {/* Role & Responsibilities */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">My Role</h2>
-        <p className="text-gray-700">
-          As a co-founder and lead developer, I was responsible for the technical foundation of Neuro Care.
-          This included architectural design, navigation and authentication, localization, and establishing
-          development principles that avoid technical debt while supporting real-world constraints.
+      {/* Role */}
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+        <h2 className="text-lg font-semibold text-[#aa2078] mb-2">My Role</h2>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          As co-founder and lead developer, I’m responsible for defining the technical foundation
+          of Neuro Care — including architecture, navigation and authentication flows, localization
+          and development standards that support long-term maintainability.
         </p>
-      </section>
+      </div>
 
-      {/* Lessons & Impact */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Lessons & Impact</h2>
-        <p className="text-gray-700">
-          Building Neuro Care reinforced the value of intentional architecture and phased delivery. Rather
-          than racing to feature completeness, prioritizing systems first has yielded a stable foundation
-          that can support future iterations with confidence.
+      {/* Screenshots / Access */}
+<div className="bg-white rounded-xl p-6 space-y-6">
+  <h2 className="text-lg font-semibold text-[#aa2078]">
+    Platform Preview
+  </h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {[
+      "/assets/neurocare.jpg",
+      "/assets/neurocare2.jpg",
+      "/assets/neurocare3.jpg",
+      "/assets/neurocare4.jpg",
+    ].map((src, idx) => (
+      <div
+        key={idx}
+        className="w-full max-h-[360px] flex items-center justify-center"
+      >
+        <img
+          src={src}
+          alt={`Neuro Care Screenshot ${idx + 1}`}
+          className="max-h-[360px] w-auto rounded-xl shadow-md object-contain"
+        />
+      </div>
+    ))}
+  </div>
+
+  <div className="flex flex-wrap gap-4">
+    <a
+      href="https://wf-artifacts.eascdn.net/builds/internal-st/292f39e0-38ff-4789-9a0f-e60e85c73284/c1536a38-b6dd-4350-be79-22919e8e2227/019bb6ac-b699-709d-9aa4-a98ee06d1998/application-c1536a38-b6dd-4350-be79-22919e8e2227.apk"
+      className="inline-flex items-center bg-[#aa2078] hover:bg-[#931c67] text-white px-6 py-2.5 rounded-lg text-sm transition"
+    >
+      <Download className="mr-2 h-4 w-4" />
+      Download APK
+    </a>
+
+    <a
+      href="https://github.com/aogajoseph/neurocare-app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center border border-[#aa2078] text-[#aa2078] hover:bg-[#aa2078]/10 px-6 py-2.5 rounded-lg text-sm transition"
+    >
+      View Source Code
+    </a>
+  </div>
+</div>
+
+
+      {/* Lessons */}
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+        <h2 className="text-lg font-semibold text-[#aa2078] mb-2">Lessons & Impact</h2>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          Building Neuro Care has reinforced the importance of intentional architecture and phased
+          delivery. Establishing strong foundations early creates stable platforms, capable
+          of evolving without constant rewrites.
         </p>
-      </section>
+      </div>
 
-      {/* Call to Action / Links */}
-      <footer className="text-center space-y-3">
-        <a
-          href="/assets/cv.pdf"
-          download
-          className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg transition"
-        >
-          Download CV
-        </a>
-
-        <a
-          href="https://github.com/aogajoseph/neuro-care"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block border border-indigo-600 text-indigo-600 hover:bg-indigo-50 px-6 py-3 rounded-lg transition"
-        >
-          View Source on GitHub
-        </a>
-      </footer>
     </section>
   );
 }
