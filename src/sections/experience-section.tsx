@@ -1,65 +1,69 @@
 import Section from "../components/section";
 
 export default function ExperienceSection() {
-    const experience = [
-        {
-            image: "/assets/google.svg",
-            title: "Sr. Software engineer",
-            company: "Google",
-            location: "New York",
-            start: "Jan 2024",
-            end: "Present",
-            description: [
-                "Lead end-to-end development of large-scale, high-performance systems used by millions of users.",
-                "Mentor junior engineers, conduct code reviews, and uphold engineering best practices.",
-            ],
-        },
-        {
-            image: "/assets/microsoft.svg",
-            title: "Full Stack developer",
-            company: "Microsoft",
-            location: "London",
-            start: "May 2021",
-            end: "Dec 2024",
-            description: [
-                "Full-stack development of large-scale, high-performance systems used by millions of users.",
-                "Mentor junior engineers, conduct code reviews, and uphold engineering best practices.",
-            ],
-        },
-    ];
+  const experience = [
+    {
+      image: "/assets/ncf-icon.png",
+      title: "Tech Lead & Co-founder",
+      company: "Neuro Care Foundation",
+      location: "Remote",
+      start: "Jan 2024",
+      end: "Present",
+      description: [
+        "Leading the development and design of the Neuro Care platform.",
+        "Owning the platform’s core architecture, navigation structure, authentication flows and backend contracts.",
+        "Managing a phased development approach."
+      ],
+    },
+    {
+      image: "/assets/shak.png",
+      title: "Volunteer Web Developer",
+      company: "Spina bifida & Hydrocephalus Association of Kenya",
+      location: "Nairobi, Kenya",
+      start: "Apr 2020",
+      end: "Nov 2023",
+      description: [
+        "Volunteering as a web developer to support the organization’s digital initiatives.",
+        "Working with non-technical stakeholders to translate needs into functional solutions.",
+        "Identifying and fixing technical issues to improve performance."
+      ],
+    },
+  ];
 
-    return (
-        <Section title="Experience">
-            <div className="space-y-6">
-                {experience.map((experience) => (
-                    <div key={experience.title} className="w-full border border-gray-200 p-6 rounded-xl">
-                        <div className="flex flex-col md:flex-row items-start gap-3 md:items-center justify-between w-full text-gray-500">
-                            <div className="flex flex-col md:flex-row items-start md:items-center gap-3">
-                                <div className="bg-gray-50 border border-gray-200 rounded-lg p-3">
-                                    <img
-                                        src={experience.image}
-                                        alt={experience.title}
-                                        width={25}
-                                        height={25}
-                                    />
-                                </div>
-                                <div>
-                                    <h3 className="text-base font-medium text-gray-800">
-                                        {experience.title}
-                                    </h3>
-                                    <div>{experience.company}</div>
-                                </div>
-                            </div>
-                            <div>{experience.start} - {experience.end}</div>
-                        </div>
-                        <ul className="list-disc px-5 mt-6 text-gray-500 space-y-2">
-                            {experience.description.map((description) => (
-                                <li key={description}>{description}</li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
+  return (
+    <Section title="Experience">
+      <div className="space-y-6">
+        {experience.map((exp) => (
+          <div key={exp.title} className="w-full border border-gray-200 p-6 rounded-xl">
+            <div className="flex flex-col md:flex-row items-start gap-3 md:items-center justify-between w-full text-gray-500">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-3">
+                <div className="bg-gray-50 border border-gray-200 rounded-lg p-1">
+                  <img
+                    src={exp.image}
+                    alt={exp.title}
+                    width={45}
+                  />
+                </div>
+                <div>
+                  <h3 className="text-base font-medium text-gray-800">
+                    {exp.title}
+                  </h3>
+                  <div className="flex flex-col text-gray-500 text-sm">
+                    <span>{exp.company}</span>
+                    <span>{exp.location}</span> {/* Added location */}
+                  </div>
+                </div>
+              </div>
+              <div className="text-gray-500 text-sm">{exp.start} - {exp.end}</div>
             </div>
-        </Section>
-    );
+            <ul className="list-disc px-5 mt-6 text-gray-500 space-y-2">
+              {exp.description.map((description) => (
+                <li key={description}>{description}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
 }

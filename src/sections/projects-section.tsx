@@ -4,8 +4,8 @@ import Section from "../components/section";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Neuro Care",
-      description: "A Neurological Health Information and Support Platform",
+      title: "Neuro Care Platform",
+      description: "Neurological Information & Community Support",
       image: "/assets/neurocare.jfif",
       href: "/projects/neurocare",
     },
@@ -31,7 +31,7 @@ export default function ProjectsSection() {
               {/* Project Details button */}
               <Link
                 to={project.href}
-                className="mt-3 inline-block border border-indigo-600 text-indigo-600 hover:bg-indigo-50 px-4 py-2 rounded-lg transition text-sm"
+                className="mt-3 inline-block border border-indigo-300 text-indigo-500 hover:bg-indigo-50 px-4 py-2 rounded-lg transition text-sm"
               >
                 Project Details
               </Link>
