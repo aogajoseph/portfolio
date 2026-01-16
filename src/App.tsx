@@ -11,8 +11,9 @@ import HeroSection from "./sections/hero-section";
 import ProjectsSection from "./sections/projects-section";
 import SkillsSection from "./sections/skills-section";
 
-// Case studies
+// Pages
 import NeuroCareCaseStudy from "./projects/neurocare";
+import ComingSoon from "./projects/coming-soon";
 
 function Home() {
   return (
@@ -37,6 +38,10 @@ export default function App() {
       <Route
         path="/projects/neurocare"
         element={<NeuroCareCaseStudy />}
+      />
+      <Route
+        path="/projects/coming-soon"
+        element={<ComingSoon />}
       />
     </Routes>
   );
