@@ -5,10 +5,11 @@ export default function AboutSection() {
         <Section title="About">
             <div className="text-sm/6.5">
                 <p>
-                    I’m Rayan Walker, a full-stack developer passionate about building end-to-end digital experiences that are fast, scalable and user-focused. With strong expertise in both front-end and back-end technologies, I enjoy transforming ideas into fully functional web applications that feel seamless and intuitive.
+                    I’m Joseph, a software developer building human-centered software that solve real problems and scale gracefully. I work with React, React Native and related technologies, focusing on clean architecture, backend-driven systems and maintainable code that grows with the product. I’m driven by turning ideas into functional platforms that serve communities and organizations effectively.
+
                 </p>
                 <p className="mt-5">
-                    Whether it’s crafting responsive interfaces or developing robust backend systems, I aim to deliver solutions that are both reliable and impactful.
+                    Currently, I’m a co-founder at Neuro Care Foundation.
                 </p>
             </div>
         </Section>
