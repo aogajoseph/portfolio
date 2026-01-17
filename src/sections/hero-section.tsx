@@ -34,7 +34,7 @@ export default function HeroSection() {
             </svg>
 
             <img
-                src="/assets/user-image.png"
+                src="/assets/me.png"
                 alt="Profile Image"
                 className="size-36 rounded-full"
                 width={144}
@@ -48,7 +48,7 @@ export default function HeroSection() {
             <p className="text-base md:text-lg font-mono text-muted-foreground mt-2">React & React Native</p>
             <div className="mt-6 flex flex-wrap items-center gap-4">
                 <a
-                    href="/assets/cv.png"
+                    href="/assets/cv.pdf"
                     download
                     className="group inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg"
                 >
