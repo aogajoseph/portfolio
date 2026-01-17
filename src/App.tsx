@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 import Footer from "./components/footer";
 import LenisScroll from "./components/lenis";
@@ -15,7 +16,25 @@ import SkillsSection from "./sections/skills-section";
 import NeuroCareCaseStudy from "./projects/neurocare";
 import ComingSoon from "./projects/coming-soon";
 
+/* --------------------------------------------
+   Home Page
+--------------------------------------------- */
 function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        // Use requestAnimationFrame to let Lenis finish
+        requestAnimationFrame(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        });
+      }
+    }
+  }, [location]);
+
   return (
     <main className="max-md:px-4">
       <LenisScroll />
@@ -31,18 +50,15 @@ function Home() {
   );
 }
 
+/* --------------------------------------------
+   App Router
+--------------------------------------------- */
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route
-        path="/projects/neurocare"
-        element={<NeuroCareCaseStudy />}
-      />
-      <Route
-        path="/projects/coming-soon"
-        element={<ComingSoon />}
-      />
+      <Route path="/projects/neurocare" element={<NeuroCareCaseStudy />} />
+      <Route path="/projects/coming-soon" element={<ComingSoon />} />
     </Routes>
   );
 }
