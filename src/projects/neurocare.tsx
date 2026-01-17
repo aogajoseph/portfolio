@@ -143,7 +143,7 @@ export default function NeuroCareCaseStudy() {
 
         <div className="flex flex-wrap gap-4">
           <a
-            href="https://wf-artifacts.eascdn.net/builds/internal-st/292f39e0-38ff-4789-9a0f-e60e85c73284/c1536a38-b6dd-4350-be79-22919e8e2227/019bb6ac-b699-709d-9aa4-a98ee06d1998/application-c1536a38-b6dd-4350-be79-22919e8e2227.apk"
+            href="https://expo.dev/artifacts/eas/c1536a38-b6dd-4350-be79-22919e8e2227.apk"
             className="inline-flex items-center bg-[#aa2078] hover:bg-[#931c67] text-white px-6 py-2.5 rounded-lg text-sm transition"
           >
             <Download className="mr-2 h-4 w-4" />
@@ -159,6 +159,7 @@ export default function NeuroCareCaseStudy() {
             View Source Code
           </a>
         </div>
+
       </div>
 
       {/* Lessons */}
