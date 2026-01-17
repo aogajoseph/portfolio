@@ -1,5 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 
 import Footer from "./components/footer";
 import LenisScroll from "./components/lenis";
@@ -20,21 +19,6 @@ import ComingSoon from "./projects/coming-soon";
    Home Page
 --------------------------------------------- */
 function Home() {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.hash) {
-      const id = location.hash.replace("#", "");
-      const element = document.getElementById(id);
-      if (element) {
-        // Use requestAnimationFrame to let Lenis finish
-        requestAnimationFrame(() => {
-          element.scrollIntoView({ behavior: "smooth" });
-        });
-      }
-    }
-  }, [location]);
-
   return (
     <main className="max-md:px-4">
       <LenisScroll />
