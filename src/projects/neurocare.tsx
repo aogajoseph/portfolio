@@ -82,8 +82,8 @@ export default function NeuroCareCaseStudy() {
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-[#aa2078] mb-2">My Role</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          As co-founder and lead developer, I’m responsible for defining the technical foundation
-          of Neuro Care — including architecture, navigation and authentication flows, localization
+          As the lead developer, I’m responsible for defining the technical foundation
+          of Neuro Care — including architecture, navigation, authentication flows, localization
           and development standards that support long-term maintainability.
         </p>
       </div>
@@ -168,7 +168,7 @@ export default function NeuroCareCaseStudy() {
         <p className="text-sm text-gray-700 leading-relaxed">
           Building Neuro Care has reinforced the importance of intentional architecture and phased
           delivery. Establishing strong foundations early creates stable platforms, capable
-          of evolving without constant rewrites.
+          of evolving based on human needs without constant rewrites.
         </p>
       </div>
 

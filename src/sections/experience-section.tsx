@@ -4,14 +4,14 @@ export default function ExperienceSection() {
   const experience = [
     {
       image: "/assets/ncf-icon.png",
-      title: "Tech Lead & Co-founder",
+      title: "Lead Developer",
       company: "Neuro Care Foundation",
       location: "Remote",
       start: "Jan 2024",
       end: "Present",
       description: [
         "Leading the development and design of the Neuro Care platform.",
-        "Owning the platform’s core architecture, navigation structure, authentication flows and backend contracts.",
+        "Responsible for the platform’s core architecture, navigation structure, authentication flows and backend contracts.",
         "Managing a phased development approach."
       ],
     },

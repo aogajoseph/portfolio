@@ -9,7 +9,7 @@ export default function AboutSection() {
 
                 </p>
                 <p className="mt-5">
-                    Currently, I’m a co-founder at Neuro Care Foundation.
+                    Currently, I’m a Lead Developer at Neuro Care Foundation.
                 </p>
             </div>
         </Section>
