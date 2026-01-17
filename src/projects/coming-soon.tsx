@@ -12,14 +12,14 @@ export default function ComingSoonProjects() {
 
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-          Projects Coming Soon
+          Project Coming Soon
         </h1>
 
         {/* Description */}
         <p className="max-w-xl text-gray-600 text-base leading-relaxed">
-          Some ideas are already taking shape. This project is currently in
-          exploration, research and early architectural design. I'm still
-          clarifying the challenges before building solutions.
+          This project is currently in exploration, research and early architectural design. 
+          While the concept is already taking shape, challenges are still being clarified 
+          before solutions are built.
         </p>
 
         {/* Cards */}

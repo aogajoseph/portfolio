@@ -8,10 +8,10 @@ export default function SkillsSection() {
         "Expo",
         "Node.js",
         "TypeScript",
-        "Webpack",
         "Git",
         "API Integration",
-        "System Design"
+        "System Design",
+        "Debugging"
     ];
 
     return (

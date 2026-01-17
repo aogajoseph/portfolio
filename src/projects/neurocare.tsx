@@ -89,51 +89,77 @@ export default function NeuroCareCaseStudy() {
       </div>
 
       {/* Screenshots / Access */}
-<div className="bg-white rounded-xl p-6 space-y-6">
-  <h2 className="text-lg font-semibold text-[#aa2078]">
-    Platform Preview
-  </h2>
+      <div className="bg-white rounded-xl p-6 space-y-6">
+        <h2 className="text-lg font-semibold text-[#aa2078]">
+          Platform Preview
+        </h2>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-    {[
-      "/assets/neurocare.jpg",
-      "/assets/neurocare2.jpg",
-      "/assets/neurocare3.jpg",
-      "/assets/neurocare4.jpg",
-    ].map((src, idx) => (
-      <div
-        key={idx}
-        className="w-full max-h-[360px] flex items-center justify-center"
-      >
-        <img
-          src={src}
-          alt={`Neuro Care Screenshot ${idx + 1}`}
-          className="max-h-[360px] w-auto rounded-xl shadow-md object-contain"
-        />
+        {/* Video Overview */}
+        <div className="bg-white rounded-xl p-6 space-y-4">
+          <div className="relative w-full h-[420px] overflow-hidden rounded-xl">
+
+            {/* Poster layer */}
+            <img
+              src="/assets/neurocare.png"
+              alt="Neuro Care Demo Thumbnail"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+
+            {/* Video layer */}
+            <video
+              src="/assets/neurocare-demo.mp4"
+              controls
+              playsInline
+              preload="metadata"
+              className="absolute inset-0 w-full h-full object-cover"
+              onPlay={(e) => {
+                const poster = (e.currentTarget.previousSibling as HTMLElement);
+                if (poster) poster.style.opacity = "0";
+              }}
+            />
+
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            "/assets/neurocare.jpg",
+            "/assets/neurocare2.jpg",
+            "/assets/neurocare3.jpg",
+            "/assets/neurocare4.jpg",
+          ].map((src, idx) => (
+            <div
+              key={idx}
+              className="w-full max-h-[360px] flex items-center justify-center"
+            >
+              <img
+                src={src}
+                alt={`Neuro Care Screenshot ${idx + 1}`}
+                className="max-h-[360px] w-auto rounded-xl shadow-md object-contain"
+              />
+            </div>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap gap-4">
+          <a
+            href="https://wf-artifacts.eascdn.net/builds/internal-st/292f39e0-38ff-4789-9a0f-e60e85c73284/c1536a38-b6dd-4350-be79-22919e8e2227/019bb6ac-b699-709d-9aa4-a98ee06d1998/application-c1536a38-b6dd-4350-be79-22919e8e2227.apk"
+            className="inline-flex items-center bg-[#aa2078] hover:bg-[#931c67] text-white px-6 py-2.5 rounded-lg text-sm transition"
+          >
+            <Download className="mr-2 h-4 w-4" />
+            Download APK
+          </a>
+
+          <a
+            href="https://github.com/aogajoseph/neurocare-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center border border-[#aa2078] text-[#aa2078] hover:bg-[#aa2078]/10 px-6 py-2.5 rounded-lg text-sm transition"
+          >
+            View Source Code
+          </a>
+        </div>
       </div>
-    ))}
-  </div>
-
-  <div className="flex flex-wrap gap-4">
-    <a
-      href="https://wf-artifacts.eascdn.net/builds/internal-st/292f39e0-38ff-4789-9a0f-e60e85c73284/c1536a38-b6dd-4350-be79-22919e8e2227/019bb6ac-b699-709d-9aa4-a98ee06d1998/application-c1536a38-b6dd-4350-be79-22919e8e2227.apk"
-      className="inline-flex items-center bg-[#aa2078] hover:bg-[#931c67] text-white px-6 py-2.5 rounded-lg text-sm transition"
-    >
-      <Download className="mr-2 h-4 w-4" />
-      Download APK
-    </a>
-
-    <a
-      href="https://github.com/aogajoseph/neurocare-app"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center border border-[#aa2078] text-[#aa2078] hover:bg-[#aa2078]/10 px-6 py-2.5 rounded-lg text-sm transition"
-    >
-      View Source Code
-    </a>
-  </div>
-</div>
-
 
       {/* Lessons */}
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
