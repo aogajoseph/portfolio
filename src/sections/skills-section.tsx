@@ -11,7 +11,8 @@ export default function SkillsSection() {
         "Git",
         "API Integration",
         "System Design",
-        "Debugging"
+        "Debugging",
+        "Collaboration"
     ];
 
     return (
