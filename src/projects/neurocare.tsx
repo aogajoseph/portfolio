@@ -13,10 +13,10 @@ export default function NeuroCareCaseStudy() {
         />
         <div>
           <h1 className="text-2xl font-semibold text-[#aa2078]">
-            Neuro Care
+            Neuro Care App
           </h1>
           <p className="text-sm text-gray-500">
-            A neurological health information & support platform.
+            A Neurology Support Platform.
           </p>
         </div>
       </header>
@@ -25,10 +25,30 @@ export default function NeuroCareCaseStudy() {
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-[#aa2078] mb-2">Overview</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          Neuro Care is a platform designed to centralize neurological health information,
-          helping individuals, caregivers and community organizations access trusted resources,
-          navigate support systems and connect with relevant programs. The platform prioritizes
-          clarity, maintainability and long-term sustainability.
+          Neuro Care is a neurology support platform designed to help people learn about neurological conditions, connect with supportive communities and access trusted guidance and care resources.
+        </p>
+      </div>
+
+      {/* Purpose */}
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+        <h2 className="text-lg font-semibold text-[#aa2078] mb-2">Purpose</h2>
+        <p className="text-sm text-gray-700 leading-relaxed mb-3">
+          It is a digital ecosystem combining:
+        </p>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Neurological health education.</li>
+          <li>
+            Communities (People living with conditions, caregivers, support groups, health professionals and those interested in learning).
+          </li>
+          <li>
+            <span className="font-medium text-[#aa2078]">Neuro</span> (A safe AI assistant that only responds to neurology questions).
+          </li>
+          <li>Neurological support resources (Articles, talks, webinars, podcasts and trainings).</li>
+          <li>Access to programs and events.</li>
+        </ul>
+        <br />
+        <p className="text-sm text-gray-700 leading-relaxed mb-3">
+          The goal is to bridge gaps in neurological knowledge, support and services.
         </p>
       </div>
 
@@ -36,10 +56,17 @@ export default function NeuroCareCaseStudy() {
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-[#ff0000] mb-2">The Problem</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          Neurological health resources are fragmented. Families struggle to find reliable
-          information, while organizations lack a unified space to present and maintain their
-          offerings. Neuro Care addresses this gap without making clinical claims, focusing on
-          access, structure and clarity.
+          Families, caregivers and individuals affected by neurological conditions often face:
+        </p>
+        <br />
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Fragmented information sources.</li>
+          <li>Limited access to support communities.</li>
+          <li>Difficulty finding programs and services.</li>
+        </ul>
+        <br />
+        <p className="text-sm text-gray-700 leading-relaxed">
+          While working with community organizations supporting persons with disabilities, I observed how these gaps create confusion and isolation for many caregivers.
         </p>
       </div>
 
@@ -47,34 +74,101 @@ export default function NeuroCareCaseStudy() {
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-3">
         <h2 className="text-lg font-semibold text-[#008000]">Our Approach</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          The platform is built with a human-centered approach and strict architectural contracts
-          between frontend and backend. Foundational systems are established first, followed by
-          phased feature delivery to reduce technical debt.
+          Neuro Care was designed as a centralized digital ecosystem that brings together:
         </p>
         <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-          <li>Backend-driven UI and content flow.</li>
-          <li>Clear navigation and identity structures.</li>
-          <li>Localization and preference management.</li>
-          <li>Incremental, low-risk feature rollout.</li>
+          <li>Neurological health education.</li>
+          <li>Moderated support communities/spaces.</li>
+          <li>Safe AI-powered guidance.</li>
+          <li>Directories of organizations and programs.</li>
+        </ul>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          The goal is to make neurological support more accessible especially for low resource areas.
+        </p>
+      </div>
+
+      {/* Features */}
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-3">
+        <h2 className="text-lg font-semibold text-[#aa2078]">Core Features</h2>
+        <h3 className="text-lg font-semibold">Home</h3>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          The dashboard of the app.
+        </p>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Announcements.</li>
+          <li>Highlights.</li>
+          <li>Features resources.</li>
+          <li>Quick navigation into other sections.</li>
+        </ul>
+        <br />
+
+        <h3 className="text-lg font-semibold">Community Spaces</h3>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          Moderated spaces for caregivers and advocates to connect and share experiences. The app cuurently simulates:
+        </p>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Caregiver Spaces (Guidance & Counselling, Peer Support, etc.)</li>
+          <li>PWD Spaces (Living Well, Peer Support, etc.)</li>
+          <li>Health Professionals Spaces (Clinicians, Rehabilitation Support etc.)</li>
+        </ul>
+        <br />
+
+        <h3 className="text-lg font-semibold">Neuro</h3>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          A safe AI-powered assistant designed to answer neurology questions while grounding responses in both medical knowledge and verified resources.
+        </p>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>General neurology knowledge</li>
+          <li>Information on Neuro Care Foundation, the organization behind Neuro Care App.</li>
+        </ul>
+        <br />
+
+        <h3 className="text-lg font-semibold">Resource Directory</h3>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          A structured directory of support services, including:
+        </p>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Events</li>
+          <li>Programs</li>
+          <li>Volunteering</li>
+          <li>Donations</li>
+          <li>Partnerships</li>
+        </ul>
+        <br />
+
+        <h3 className="text-sm font-medium text-gray-800 mt-4">
+          Architecture
+        </h3>
+        <p className="text-sm text-gray-700 leading-relaxed">
+          The application was built using a contract-first architecture, where the backend defines all frontend data structures.
+          <br />
+          Core principles include:
+        </p>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>Backend-authoritative data</li>
+          <li>Modular feature design</li>
+          <li>Scalable community moderation systems</li>
+        </ul>
+        <br />
+        <h3 className="text-sm font-medium text-gray-800 mt-4">
+          Technology
+        </h3>
+        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+          <li>React Native (Expo)</li>
+          <li>TypeScript</li>
+          <li>Expo Router</li>
+          <li>API-driven architecture</li>
+          <li>Drawer + Bottom Tabs layout</li>
         </ul>
       </div>
 
-      {/* Features & Tech */}
+      {/* Outcome */}
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-3">
-        <h2 className="text-lg font-semibold text-[#aa2078]">Core Features</h2>
-        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-          <li>Curated informational resource pages.</li>
-          <li>Community and organization listings.</li>
-          <li>Anonymous and authenticated user flows.</li>
-          <li>Localization and user preferences.</li>
-        </ul>
-
-        <h3 className="text-sm font-medium text-gray-800 mt-4">
-          Tech Stack & Architecture
-        </h3>
+        <h2 className="text-lg font-semibold text-[#008000]">Outcome</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          Built with Expo and React Native, supported by backend-authoritative API contracts.
-          The architecture emphasizes modularity, maintainability and readiness for future growth.
+          The current version is a working prototype for android devices demonstrating the core concept of a neurological care support platform.
+          <br />
+          The project lays the foundation for a scalable digital ecosystem that can support neurological care communities globally.
         </p>
       </div>
 
@@ -82,9 +176,7 @@ export default function NeuroCareCaseStudy() {
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-[#aa2078] mb-2">My Role</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          As the lead developer, I’m responsible for defining the technical foundation
-          of Neuro Care — including architecture, navigation, authentication flows, localization
-          and development standards that support long-term maintainability.
+          As a Co-founder and lead developer at Neuro Care Foundation, I’m responsible for defining the technical foundation of Neuro Care, including the development standards and phased feature rollout to attain stakeholder needs, achieve organizational goals and support scalability.
         </p>
       </div>
 
@@ -123,10 +215,12 @@ export default function NeuroCareCaseStudy() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            "/assets/neurocare.jpg",
-            "/assets/neurocare2.jpg",
-            "/assets/neurocare3.jpg",
-            "/assets/neurocare4.jpg",
+            "/assets/drawer.png",
+            "/assets/home.png",
+            "/assets/community.png",
+            "/assets/resources.png",
+            "/assets/neuro.png",
+            "/assets/spaces.png",
           ].map((src, idx) => (
             <div
               key={idx}
@@ -143,7 +237,7 @@ export default function NeuroCareCaseStudy() {
 
         <div className="flex flex-wrap gap-4">
           <a
-            href="https://expo.dev/artifacts/eas/c1536a38-b6dd-4350-be79-22919e8e2227.apk"
+            href="https://expo.dev/artifacts/eas/UESTZnoXb7vCiXWWC2EN8.apk"
             className="inline-flex items-center bg-[#aa2078] hover:bg-[#931c67] text-white px-6 py-2.5 rounded-lg text-sm transition"
           >
             <Download className="mr-2 h-4 w-4" />
@@ -151,7 +245,7 @@ export default function NeuroCareCaseStudy() {
           </a>
 
           <a
-            href="https://github.com/aogajoseph/neurocare-app"
+            href="https://github.com/aogajoseph/neurocare"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center border border-[#aa2078] text-[#aa2078] hover:bg-[#aa2078]/10 px-6 py-2.5 rounded-lg text-sm transition"
@@ -164,11 +258,9 @@ export default function NeuroCareCaseStudy() {
 
       {/* Lessons */}
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-        <h2 className="text-lg font-semibold text-[#aa2078] mb-2">Lessons & Impact</h2>
+        <h2 className="text-lg font-semibold text-[#aa2078] mb-2">Lesson Learnt</h2>
         <p className="text-sm text-gray-700 leading-relaxed">
-          Building Neuro Care has reinforced the importance of intentional architecture and phased
-          delivery. Establishing strong foundations early creates stable platforms, capable
-          of evolving based on human needs without constant rewrites.
+          Working on this project has reflected something I'm deeply passionate about: The zeal to move from identifying real-world challenges, to designing and building software solutions that respond to them effectively.
         </p>
       </div>
 

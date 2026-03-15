@@ -12,7 +12,7 @@ export default function ComingSoonProjects() {
 
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-          Project Coming Soon
+          Akiba
         </h1>
 
         {/* Description */}

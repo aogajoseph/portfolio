@@ -5,13 +5,13 @@ export default function ProjectsSection() {
   const projects = [
     {
       title: "Neuro Care Platform",
-      description: "Neurological Information & Community Support",
+      description: "A Neurology Support Platform",
       image: "/assets/neurocare.jfif",
       href: "/projects/neurocare",
     },
     {
-      title: "Project Coming Soon",
-      description: "This project is currently undergoing Ideation",
+      title: "Akiba",
+      description: "Coming Soon",
       image: "/assets/coming-soon.jfif",
       href: "/projects/coming-soon",
     }
