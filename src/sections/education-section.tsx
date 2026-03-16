@@ -23,7 +23,9 @@ export default function EducationSection() {
                     </div>
                     <div>Feb 2020 - Date</div>
                 </div>
-                <p className="mt-6 text-gray-500">Online coursework covering JavaScript across frontend, backend and related technologies, with a focus on React and React Native. I continuously apply these concepts through real-world projects, building software that balance user needs, technical maintainability and organizational goals.</p>
+                <p className="mt-6 text-gray-500">
+                    Online coursework covering JavaScript across frontend, backend and related technologies, specializing in React and React Native. I continuously apply these concepts through real-world projects, building systems that balance stakeholder needs, technical maintainability and organizational goals.
+                </p>
             </div>
         </Section>
     );

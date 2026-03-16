@@ -4,7 +4,7 @@ export default function ExperienceSection() {
   const experience = [
     {
       image: "/assets/ncf-icon.png",
-      title: "Lead Developer",
+      title: "Co-founder & Lead Developer",
       company: "Neuro Care Foundation",
       location: "Remote",
       start: "Jan 2024",
@@ -18,8 +18,8 @@ export default function ExperienceSection() {
     {
       image: "/assets/shak.png",
       title: "Volunteer Web Developer",
-      company: "Spina bifida & Hydrocephalus Association of Kenya",
-      location: "Nairobi, Kenya",
+      company: "Spina bifida & Hydrocephalus Association of Kenya (SHAK), Nairobi",
+      location: "Hybrid",
       start: "Apr 2020",
       end: "Nov 2023",
       description: [

@@ -13,6 +13,10 @@ export default function ContactSection() {
                         <td className="pr-4 py-2">Phone:</td>
                         <td className="py-2 text-gray-500">+254 (0725) 406-004</td>
                     </tr>
+                    <tr>
+                        <td className="pr-4 py-2">Freeelance:</td>
+                        <td className="py-2 text-gray-500">Available</td>
+                    </tr>
                 </tbody>
             </table>
         </Section>
