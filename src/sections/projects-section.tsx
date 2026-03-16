@@ -4,7 +4,7 @@ import Section from "../components/section";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Neuro Care Platform",
+      title: "Neuro Care",
       description: "A Neurology Support Platform",
       image: "/assets/neurocare.jfif",
       href: "/projects/neurocare",
