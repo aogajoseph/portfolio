@@ -57,7 +57,7 @@ export default function HeroSection() {
                 </a>
 
                 <a
-                    href="/projects/neurocare"
+                    href="/projects/coming-soon"
                     className="inline-flex items-center border border-indigo-600 text-indigo-600 hover:bg-gray-100/70 px-6 py-2.5 rounded-lg"
                 >
                     Current Project

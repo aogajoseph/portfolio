@@ -21,7 +21,7 @@ export default function ComingSoonProjects() {
 
         {/* Description */}
         <p className="max-w-xl text-gray-600 text-base leading-relaxed">
-          This project is coming soon. It is currently under ideation, research and early architectural design. While the concept is already taking shape, potential issues are still being scrutinized.
+          This project has progressed beyond ideation, research and early architectural design. The first beta release (v0.8.0-beta.1) has been successfully developed and is currently undergoing closed internal testing. The current focus is on validating core functionalities, identifying edge cases, ensuring architectural stability and refining the user experience ahead of broader testing and future public releases.
         </p>
 
         {/* CTA */}

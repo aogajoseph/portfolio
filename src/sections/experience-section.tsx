@@ -10,9 +10,9 @@ export default function ExperienceSection() {
       start: "Jan 2024",
       end: "Present",
       description: [
-        "Leading the development and design of the Neuro Care platform.",
-        "Responsible for the platform’s core architecture, navigation structure, authentication flows and backend contracts.",
-        "Managing a phased development approach."
+        "Leading the design and development of the Neuro Care platform, from concept to implementation.",
+        "Managing a phased development roadmap, ensuring structured progress from planning to deployment and scalability.",
+        "Providing technical support in computer maintenance, software installation and configuration, network setup, troubleshooting and assisting users in utilizing digital tools effectively.",
       ],
     },
     {
@@ -23,9 +23,9 @@ export default function ExperienceSection() {
       start: "Apr 2020",
       end: "Nov 2023",
       description: [
-        "Volunteering as a web developer to support the organization’s digital initiatives.",
-        "Working with non-technical stakeholders to translate needs into functional solutions.",
-        "Identifying and fixing technical issues to improve performance."
+        "Volunteered as a web developer, supporting the organization’s digital initiatives and online presence.",
+        "Collaborated with non-technical stakeholders to translate needs into functional web solutions.",
+        "Resolved technical issues and assisted users in understanding and using digital tools effectively."
       ],
     },
   ];

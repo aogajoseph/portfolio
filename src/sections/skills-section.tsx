@@ -6,13 +6,13 @@ export default function SkillsSection() {
         "NPM",
         "React Native",
         "Expo",
-        "Node",
-        "TypeScript",
+        "Node JS",
+        "Express",
+        "Prisma",
         "Git",
         "API Integration",
         "System Design",
         "Debugging",
-        "Collaboration"
     ];
 
     return (

@@ -5,7 +5,7 @@ export default function ProjectsSection() {
   const projects = [
     {
       title: "Neuro Care",
-      description: "A Neurology Support Platform",
+      description: "Neurological Health Support App",
       image: "/assets/neurocare.jfif",
       href: "/projects/neurocare",
     },
