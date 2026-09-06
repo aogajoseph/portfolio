@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
 import LenisScroll from "./components/lenis";
 
-import AboutSection from "./sections/about-section";
+import AboutSection from "./sections/about";
 import ContactSection from "./sections/contact";
 import EducationSection from "./sections/education-section";
 import ExperienceSection from "./sections/experience-section";
