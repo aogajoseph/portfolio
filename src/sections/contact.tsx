@@ -2,7 +2,7 @@ import Section from "../components/section";
 
 export default function ContactSection() {
     return (
-        <Section title="Contact">
+        <Section id="contact" title="Contact">
             <table className="table-auto mr-auto">
                 <tbody>
                     <tr>

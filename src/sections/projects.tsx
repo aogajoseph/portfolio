@@ -18,7 +18,7 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <Section title="Projects">
+    <Section id="projects" title="Projects">
       <div className="flex flex-wrap gap-4 justify-center">
         {projects.map((project) => (
           <div

@@ -4,11 +4,11 @@ import Footer from "./components/footer";
 import LenisScroll from "./components/lenis";
 
 import AboutSection from "./sections/about-section";
-import ContactSection from "./sections/contact-section";
+import ContactSection from "./sections/contact";
 import EducationSection from "./sections/education-section";
 import ExperienceSection from "./sections/experience-section";
-import HeroSection from "./sections/hero-section";
-import ProjectsSection from "./sections/projects-section";
+import HeroSection from "./sections/hero";
+import ProjectsSection from "./sections/projects";
 import SkillsSection from "./sections/skills-section";
 
 // Pages

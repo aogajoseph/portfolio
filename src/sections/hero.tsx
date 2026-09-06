@@ -1,4 +1,4 @@
-import { Download } from "lucide-react";
+import { FolderOpen, MessageSquarePlus } from "lucide-react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function HeroSection() {
@@ -41,26 +41,26 @@ export default function HeroSection() {
                 height={144}
             />
 
-            <h2 className="text-4xl md:text-6xl font-semibold mt-6">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-semibold mt-6 whitespace-nowrap">
                 Joseph Onyango
             </h2>
             <p className="text-2xl md:text-3xl font-mono mt-6">Software Developer</p>
-            <p className="text-base md:text-lg font-mono text-muted-foreground mt-2">React & React Native</p>
-            <div className="mt-6 flex flex-wrap items-center gap-4">
+            <p className="text-base md:text-lg font-mono text-muted-foreground mt-2">Building modern websites, web applications and digital products.</p>
+            <div className="mt-6 flex items-center gap-3">
                 <a
-                    href="/assets/cv.pdf"
-                    download
-                    className="group inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg"
+                    href="#contact"
+                    className="group inline-flex flex-1 items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 sm:px-7 py-2.5 rounded-lg whitespace-nowrap"
                 >
-                    <Download className="mr-2 size-5 transition group-hover:translate-x-0.5" />
-                    Download CV
+                    <MessageSquarePlus className="mr-2 size-5 shrink-0 transition group-hover:translate-y-0.5" />
+                    Build With Me
                 </a>
 
                 <a
-                    href="/projects/coming-soon"
-                    className="inline-flex items-center border border-indigo-600 text-indigo-600 hover:bg-gray-100/70 px-6 py-2.5 rounded-lg"
+                    href="#projects"
+                    className="group inline-flex flex-1 items-center justify-center border border-indigo-600 text-indigo-600 hover:bg-gray-100/70 px-4 sm:px-6 py-2.5 rounded-lg whitespace-nowrap"
                 >
-                    Current Project
+                    <FolderOpen className="mr-2 size-5 shrink-0 transition group-hover:translate-y-0.5" />
+                    View My Work
                 </a>
             </div>
             <div className="mt-10 flex items-center gap-6">
