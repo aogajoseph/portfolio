@@ -5,7 +5,7 @@ import LenisScroll from "./components/lenis";
 
 import AboutSection from "./sections/about";
 import ContactSection from "./sections/contact";
-import EducationSection from "./sections/education-section";
+import PricingSection from "./sections/pricing";
 import ServicesSection from "./sections/services";
 import HeroSection from "./sections/hero";
 import ProjectsSection from "./sections/projects";
@@ -27,7 +27,7 @@ function Home() {
       <ProjectsSection />
       <ServicesSection />
       <SkillsSection />
-      <EducationSection />
+      <PricingSection />
       <ContactSection />
       <Footer />
     </main>
