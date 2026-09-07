@@ -1,5 +1,5 @@
 import { FolderOpen, MessageSquarePlus } from "lucide-react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function HeroSection() {
     return (
@@ -45,11 +45,12 @@ export default function HeroSection() {
                 Joseph Onyango
             </h2>
             <p className="text-2xl md:text-3xl font-mono mt-6">Software Developer</p>
-            <p className="text-base md:text-lg font-mono text-muted-foreground mt-2">Building modern websites, web/mobile applications and digital products.</p>
-            <div className="mt-6 flex items-center gap-3">
+            <p className="text-base text-center md:text-lg font-mono text-muted-foreground mt-2">Building modern websites, web & mobile apps and other digital products.</p>
+            
+            <div className="mt-6 flex items-center justify-center gap-3">
                 <a
                     href="#contact"
-                    className="group inline-flex flex-1 items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 sm:px-7 py-2.5 rounded-lg whitespace-nowrap"
+                    className="group inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 sm:px-7 py-2.5 rounded-lg whitespace-nowrap"
                 >
                     <MessageSquarePlus className="mr-2 size-5 shrink-0 transition group-hover:translate-y-0.5" />
                     Build With Me
@@ -57,13 +58,36 @@ export default function HeroSection() {
 
                 <a
                     href="#projects"
-                    className="group inline-flex flex-1 items-center justify-center border border-indigo-600 text-indigo-600 hover:bg-gray-100/70 px-4 sm:px-6 py-2.5 rounded-lg whitespace-nowrap"
+                    className="group inline-flex items-center justify-center border border-indigo-600 text-indigo-600 hover:bg-gray-100/70 px-4 sm:px-6 py-2.5 rounded-lg whitespace-nowrap"
                 >
                     <FolderOpen className="mr-2 size-5 shrink-0 transition group-hover:translate-y-0.5" />
                     View My Work
                 </a>
             </div>
+            
             <div className="mt-10 flex items-center gap-6">
+                {/* WhatsApp */}
+                <a
+                href="https://wa.me/254725406004"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
+                aria-label="WhatsApp"
+                title="WhatsApp"
+                >
+                <FaWhatsapp />
+                </a>
+
+                {/* Email */}
+                <a
+                    href="mailto:Joseph Onyango <jonyangomail@gmail.com>"
+                    className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
+                    aria-label="Email"
+                    title="Email"
+                >
+                    <FaEnvelope />
+                </a>
+
                 {/* LinkedIn */}
                 <a
                     href="https://www.linkedin.com/in/josephonyango/"
@@ -88,15 +112,6 @@ export default function HeroSection() {
                     <FaGithub />
                 </a>
 
-                {/* Email */}
-                <a
-                    href="mailto:jonyangomail@gmail.com"
-                    className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
-                    aria-label="Email"
-                    title="Email"
-                >
-                    <FaEnvelope />
-                </a>
             </div>
         </main>
     );
