@@ -8,7 +8,7 @@ export default function AboutSection() {
                     I’m a Software Developer focused on helping organizations,
                     businesses and individuals build and improve the digital
                     touchpoints through which they engage their audiences. I
-                    design and develop modern websites, web applications and
+                    design and develop modern websites, web/mobile applications and
                     digital experiences with an emphasis on clarity, usability
                     and practical results.
                 </p>

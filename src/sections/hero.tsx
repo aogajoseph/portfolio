@@ -45,7 +45,7 @@ export default function HeroSection() {
                 Joseph Onyango
             </h2>
             <p className="text-2xl md:text-3xl font-mono mt-6">Software Developer</p>
-            <p className="text-base md:text-lg font-mono text-muted-foreground mt-2">Building modern websites, web applications and digital products.</p>
+            <p className="text-base md:text-lg font-mono text-muted-foreground mt-2">Building modern websites, web/mobile applications and digital products.</p>
             <div className="mt-6 flex items-center gap-3">
                 <a
                     href="#contact"

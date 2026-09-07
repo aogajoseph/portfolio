@@ -6,10 +6,10 @@ import LenisScroll from "./components/lenis";
 import AboutSection from "./sections/about";
 import ContactSection from "./sections/contact";
 import EducationSection from "./sections/education-section";
-import ExperienceSection from "./sections/experience-section";
+import ServicesSection from "./sections/services";
 import HeroSection from "./sections/hero";
 import ProjectsSection from "./sections/projects";
-import SkillsSection from "./sections/skills-section";
+import SkillsSection from "./sections/skills";
 
 // Pages
 import NeuroCareCaseStudy from "./projects/neurocare";
@@ -25,9 +25,9 @@ function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
-      <ExperienceSection />
-      <EducationSection />
+      <ServicesSection />
       <SkillsSection />
+      <EducationSection />
       <ContactSection />
       <Footer />
     </main>

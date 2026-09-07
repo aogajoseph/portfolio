@@ -3,8 +3,8 @@ import Section from "../components/section";
 export default function SkillsSection() {
     const skills = [
         "React",
-        "NPM",
         "React Native",
+        "NPM",
         "Expo",
         "Node JS",
         "Express",
