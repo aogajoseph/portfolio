@@ -2,17 +2,17 @@ import Section from "../components/section";
 
 export default function ContactSection() {
     return (
-        <Section id="contact" title="Get in Touch">
+        <Section id="contact" title="Contact">
             <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full">
                 
                 {/* Left Side: Context & Direct Contact (2 Columns) */}
                 <div className="md:col-span-2 space-y-6 flex flex-col justify-between">
                     <div>
                         <h3 className="text-base font-semibold text-gray-800">
-                            Let's build something exceptional
+                            Let's build something Great!
                         </h3>
                         <p className="mt-2 text-gray-500 text-sm leading-relaxed">
-                            Have a project in mind, a freelance opportunity, or just want to discuss technical feasibility? Drop a message or book a direct discovery session.
+                        Have a project in mind or want to discuss an idea? Send me a message or book a discovery call to get started.
                         </p>
                     </div>
 
@@ -31,10 +31,10 @@ export default function ContactSection() {
                         <div className="flex items-center gap-3 text-sm text-gray-600">
                             <span className="text-base">✉️</span>
                             <a 
-                                href="mailto:namemail@gmail.com" 
+                                href="mailto:Joseph Onyango <jonyangomail@gmail.com>"
                                 className="font-medium text-gray-800 hover:underline decoration-gray-400"
                             >
-                                namemail@gmail.com
+                                jonyangomail@gmail.com
                             </a>
                         </div>
                         <div className="flex items-center gap-3 text-sm">
@@ -43,7 +43,7 @@ export default function ContactSection() {
                                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                             </span>
                             <span className="text-gray-500 text-xs font-medium uppercase tracking-wider">
-                                Available for Freelance Roles
+                                Available for New Projects
                             </span>
                         </div>
                     </div>
@@ -91,14 +91,14 @@ export default function ContactSection() {
                         >
                             <option>Landing Page</option>
                             <option>Business Website</option>
-                            <option>Web Application</option>
+                            <option>Web/Mobile Application</option>
                             <option>Custom Project / Other</option>
                         </select>
                     </div>
 
                     <div>
                         <label htmlFor="message" className="block text-xs font-medium text-gray-700 mb-1">
-                            Project Brief & Goals
+                            Your Goals/Project Brief
                         </label>
                         <textarea
                             id="message"
@@ -113,7 +113,7 @@ export default function ContactSection() {
                         type="submit"
                         className="w-full bg-gray-900 hover:bg-gray-800 text-white font-medium text-sm py-2.5 px-4 rounded-lg transition"
                     >
-                        Send Inquiry
+                        Send Message
                     </button>
                 </form>
 
