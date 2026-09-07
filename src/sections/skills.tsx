@@ -4,7 +4,7 @@ export default function SkillsSection() {
     const skillGroups = [
         {
             title: "Frontend",
-            skills: ["React", "React Native", "TypeScript", "Expo"],
+            skills: ["JavaScript", "TypeScript", "React", "React Native", "Next.js", "Expo"],
         },
         {
             title: "Backend & Data",
@@ -18,9 +18,12 @@ export default function SkillsSection() {
 
     return (
         <Section id="skills" title="Skills">
-            <div className="w-full space-y-8">
-                {skillGroups.map((group) => (
-                    <div key={group.title}>
+            <div className="w-full">
+                {skillGroups.map((group, index) => (
+                    <div
+                        key={group.title}
+                        className={`${index > 0 ? "border-t border-gray-200 pt-6 mt-6" : ""}`}
+                    >
                         <h3 className="text-sm font-medium text-gray-800">
                             {group.title}
                         </h3>
