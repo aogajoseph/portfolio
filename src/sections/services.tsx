@@ -13,7 +13,7 @@ export default function ServicesSection() {
             icon: LayoutTemplate,
             title: "Websites",
             description:
-                "Modern, responsive websites that help businesses, organizations, professionals and brands establish a credible presence and turn visitors into opportunities.",
+                "Modern, responsive websites that help businesses, organizations and professionals establish a credible presence and turn visitors into opportunities.",
         },
         {
             icon: AppWindow,
@@ -22,25 +22,24 @@ export default function ServicesSection() {
                 "Custom web applications built around real business processes, services and ideas to make complex tasks simpler and digital experiences more useful.",
         },
         {
-            icon: Code2,
-            title: "Redesigns & Improvements",
-            description:
-                "Transform outdated or underperforming websites and applications into cleaner, faster, more intuitive digital experiences that better serve your audience.",
-        },
-        {
             icon: Smartphone,
             title: "Mobile Applications",
             description:
-                "Cross-platform mobile applications that extend digital products beyond the browser and give customers a convenient way to engage with your brand.",
+                "Cross-platform mobile apps that extend digital products beyond the browser and give customers a convenient way to engage with their favourite brands.",
         },
+        {
+            icon: Code2,
+            title: "Redesigns & Improvements",
+            description:
+                "Transforming outdated or underperforming websites and apps into cleaner, faster, more intuitive digital experiences that better serve target audiences.",
+        }
     ];
 
     return (
         <Section id="services" title="Services">
             <div className="w-full">
                 <p className="text-sm/6.5 text-gray-500 max-w-2xl">
-                    I build digital products that help brands look credible,
-                    work better, and grow online.
+                I build products that help brands communicate clearly, serve their audiences better and grow.
                 </p>
 
                 <div className="mt-8 divide-y divide-gray-200 border-y border-gray-200">
