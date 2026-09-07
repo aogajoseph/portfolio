@@ -17,7 +17,7 @@ export default function AboutSection() {
                     Alongside client work, I’m building Globe Technologies — a
                     technology and Intellectual Property company focused on
                     creating software products, digital platforms, intellectual
-                    properties, franchises, digital works and other assets
+                    properties, franchises, creative media and other assets
                     designed for a global audience. My work today is therefore
                     both practical and long-term: helping others build better
                     digital experiences while laying the foundation for a
