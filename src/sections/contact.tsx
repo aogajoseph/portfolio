@@ -153,7 +153,7 @@ export default function ContactSection() {
                                 required
                                 autoComplete="name"
                                 placeholder="Jane Doe"
-                                className="w-full border border-gray-200 rounded-lg p-2.5 text-sm text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition"
+                                className="w-full border border-gray-200 rounded-lg p-2.5 text-xs text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition resize-none placeholder:italic" 
                             />
                         </div>
 
@@ -172,7 +172,7 @@ export default function ContactSection() {
                                 required
                                 autoComplete="email"
                                 placeholder="jane@company.com"
-                                className="w-full border border-gray-200 rounded-lg p-2.5 text-sm text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition"
+                                className="w-full border border-gray-200 rounded-lg p-2.5 text-xs text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition resize-none placeholder:italic" 
                             />
                         </div>
                     </div>
@@ -254,13 +254,13 @@ export default function ContactSection() {
                             Project Brief & Goals
                         </label>
 
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows={4}
-                            required
-                            placeholder="Describe your project, what you aim to achieve or anything else that might be helpful."
-                            className="w-full border border-gray-200 rounded-lg p-2.5 text-sm text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition resize-none"
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            rows={4} 
+                            required 
+                            placeholder="Describe your project, what you aim to achieve or anything else that might be helpful..." 
+                            className="w-full border border-gray-200 rounded-lg p-2.5 text-xs text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition resize-none placeholder:italic" 
                         />
                     </div>
 
