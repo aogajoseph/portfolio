@@ -1,4 +1,6 @@
 import Section from "../components/section";
+import { CalendarDays, Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function ContactSection() {
     return (
@@ -17,33 +19,36 @@ export default function ContactSection() {
                     </div>
 
                     <div className="space-y-3">
-                        <div className="flex items-center gap-3 text-sm text-gray-600">
-                            <span className="text-base">📅</span>
-                            <a 
-                                href="https://cal.com" 
-                                target="_blank" 
-                                rel="noreferrer"
-                                className="font-medium text-gray-800 hover:underline decoration-gray-400"
-                            >
-                                Book a Discovery Call
-                            </a>
-                        </div>
-                        <div className="flex items-center gap-3 text-sm text-gray-600">
-                            <span className="text-base">✉️</span>
-                            <a 
+                        <div className="group flex items-center gap-3 text-sm text-gray-600 transition-colors duration-200 hover:text-gray-900">
+                            <Mail className="size-4 shrink-0 text-gray-500 transition-transform duration-200 group-hover:scale-110" />
+                            <a
                                 href="mailto:Joseph Onyango <jonyangomail@gmail.com>"
-                                className="font-medium text-gray-800 hover:underline decoration-gray-400"
+                                className="font-medium hover:underline decoration-gray-400 underline-offset-2"
                             >
-                                jonyangomail@gmail.com
+                                Send me Mail
                             </a>
                         </div>
+
+                        <div className="group flex items-center gap-3 text-sm text-gray-600 transition-colors duration-200 hover:text-emerald-600">
+                            <FaWhatsapp className="size-4 shrink-0 text-emerald-500 transition-transform duration-200 group-hover:scale-110" />
+                            <a
+                                href="https://wa.me/254725406004"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-medium hover:underline decoration-emerald-400 underline-offset-2"
+                                aria-label="WhatsApp"
+                            >
+                                Chat on WhatsApp
+                            </a>
+                        </div>
+
                         <div className="flex items-center gap-3 text-sm">
                             <span className="flex h-2.5 w-2.5 relative">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                             </span>
                             <span className="text-gray-500 text-xs font-medium uppercase tracking-wider">
-                                Available for New Projects
+                                I'm Currently Available
                             </span>
                         </div>
                     </div>
