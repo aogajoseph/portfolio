@@ -10,8 +10,8 @@ export default function PricingSection() {
             description: "Focused landing pages for specific products, campaigns or events, ideal for capturing leads."
         },
         {
-            title: "Business Sites",
-            badge: "Professional websites",
+            title: "Business Webites",
+            badge: "Professional Sites",
             price: "From $500",
             emoji: "🏢",
             description: "Corporate multi-page websites for businesses, organizations and service providers."
@@ -21,14 +21,14 @@ export default function PricingSection() {
             badge: "Web & Mobile Apps",
             price: "From $1,000",
             emoji: "📱",
-            description: "Interactive web and mobile applications built around well defined workflows, data and users."
+            description: "Dynamic, interactive web and mobile applications built around well defined workflows, data and users."
         },
         {
             title: "Custom Projects",
             badge: "Tailor-Made Solutions",
             price: "Let's Talk",
             emoji: "🛠️",
-            description: "For complex, specialized or unique projects requiring a personalized approach."
+            description: "Complex, personalized projects tailored to specialized goals, requirements and workflows."
         }
     ];
 

@@ -212,7 +212,7 @@ export default function ContactSection() {
                                         "Landing Page",
                                         "Business Website",
                                         "Web/Mobile App",
-                                        "Tailor-Made Project",
+                                        "Custom Project",
                                     ].map((option) => (
                                         <button
                                             key={option}
