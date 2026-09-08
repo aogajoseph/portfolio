@@ -17,17 +17,17 @@ export default async function handler(req: any, res: any) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Portfolio <onboarding@resend.dev>",
+      from: "Client Services Division <clientservices@globe.com>",
       to: ["jonyangomail@gmail.com"],
       replyTo: email,
       subject: `New project inquiry from ${name}`,
       text: `
-Name: ${name}
-Email: ${email}
-Project Type: ${projectType}
+        Name: ${name}
+        Email: ${email}
+        Project Type: ${projectType}
 
-Project Brief & Goals:
-${message}
+        Project Brief & Goals:
+        ${message}
       `,
     });
 

@@ -25,7 +25,7 @@ export default function PricingSection() {
         },
         {
             title: "Custom Projects",
-            badge: "Tailor-made Solutions",
+            badge: "Tailor-Made Solutions",
             price: "Let's Talk",
             emoji: "🛠️",
             description: "For complex, specialized or unique projects requiring a personalized approach."

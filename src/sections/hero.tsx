@@ -53,7 +53,7 @@ export default function HeroSection() {
                     className="group inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 sm:px-7 py-2.5 rounded-lg whitespace-nowrap"
                 >
                     <MessageSquarePlus className="mr-2 size-5 shrink-0 transition group-hover:translate-y-0.5" />
-                    Build With Me
+                    Start a Project
                 </a>
 
                 <a

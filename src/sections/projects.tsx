@@ -43,7 +43,7 @@ function ProjectCard({ project }: { project: Project }) {
                         <button
                             type="button"
                             onClick={() => setExpanded(true)}
-                            className="absolute bottom-0 right-0 bg-white pl-2 py-1 text-xs font-medium text-rose-600 hover:text-rose-700 transition-colors inline-flex items-center gap-1"
+                            className="absolute bottom-0 right-0 bg-white pl-2 py-1 text-xs font-medium text-green-600 hover:text-green-400 transition-colors inline-flex items-center gap-1"
                             aria-label={`Expand ${project.title} description`}
                         >
                             <ChevronDown className="size-4" />
@@ -59,7 +59,7 @@ function ProjectCard({ project }: { project: Project }) {
                             aria-label={`Collapse ${project.title} description`}
                         >
                             <ChevronUp className="size-4" />
-                            Collapse
+                            Hide
                         </button>
                     )}
                 </div>

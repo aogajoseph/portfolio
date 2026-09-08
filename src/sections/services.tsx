@@ -39,7 +39,7 @@ export default function ServicesSection() {
         <Section id="services" title="Services">
             <div className="w-full">
                 <p className="text-sm/6.5 text-gray-500 max-w-2xl">
-                I build products that help brands communicate clearly, serve their audiences better and grow.
+                I build products that help brands communicate clearly, serve their audiences better and thrive.
                 </p>
 
                 <div className="mt-8 divide-y divide-gray-200 border-y border-gray-200">

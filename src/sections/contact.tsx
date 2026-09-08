@@ -2,13 +2,15 @@ import { useState, type FormEvent } from "react";
 
 import Section from "../components/section";
 
-import { ChevronDown, Mail } from "lucide-react";
+import { Check, ChevronDown, ChevronUp, Mail } from "lucide-react";
 
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function ContactSection() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [status, setStatus] = useState<"success" | "error" | null>(null);
+    const [isProjectTypeOpen, setIsProjectTypeOpen] = useState(false);
+    const [projectType, setProjectType] = useState("");
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -118,13 +120,12 @@ export default function ContactSection() {
 
                         <div className="flex items-center gap-3 text-sm">
                             <span className="flex h-2.5 w-2.5 relative">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-
-                                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
                             </span>
 
                             <span className="text-gray-500 text-xs font-medium uppercase tracking-wider">
-                                I'm Currently Available
+                                I'm Currently Open for Projects
                             </span>
                         </div>
                     </div>
@@ -184,36 +185,64 @@ export default function ContactSection() {
                         </label>
 
                         <div className="relative">
-                            <select
-                                id="project-type"
-                                name="projectType"
-                                required
-                                defaultValue=""
-                                className="w-full appearance-none border border-gray-200 rounded-lg p-2.5 pr-10 text-sm text-gray-600 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition"
+                            <button
+                                type="button"
+                                onClick={() => setIsProjectTypeOpen((open) => !open)}
+                                className={`w-full border border-gray-200 rounded-lg p-2.5 pr-10 text-sm text-left bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition ${
+                                    projectType ? "text-gray-800" : "text-gray-600"
+                                }`}
+                                aria-haspopup="listbox"
+                                aria-expanded={isProjectTypeOpen}
                             >
-                                <option value="" disabled>
-                                    Select a project type
-                                </option>
+                                {projectType || "Select a project type"}
 
-                                <option value="landing-page">
-                                    Landing Page
-                                </option>
+                                {isProjectTypeOpen ? (
+                                    <ChevronUp className="pointer-events-none absolute right-3 top-1/2 size-4 -translate-y-1/2 text-gray-600" />
+                                ) : (
+                                    <ChevronDown className="pointer-events-none absolute right-3 top-1/2 size-4 -translate-y-1/2 text-gray-600" />
+                                )}
+                            </button>
 
-                                <option value="business-website">
-                                    Business Website
-                                </option>
+                            {isProjectTypeOpen && (
+                                <div
+                                    className="absolute left-0 right-0 top-full z-20 mt-1 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg"
+                                    role="listbox"
+                                >
+                                    {[
+                                        "Landing Page",
+                                        "Business Website",
+                                        "Web/Mobile App",
+                                        "Tailor-Made Project",
+                                    ].map((option) => (
+                                        <button
+                                            key={option}
+                                            type="button"
+                                            onClick={() => {
+                                                setProjectType(option);
+                                                setIsProjectTypeOpen(false);
+                                            }}
+                                            className="flex w-full items-center justify-between px-3 py-2.5 text-left text-sm text-gray-700 transition hover:bg-gray-50"
+                                            role="option"
+                                            aria-selected={projectType === option}
+                                        >
+                                            {option}
 
-                                <option value="web-mobile-application">
-                                    Web & Mobile Application
-                                </option>
+                                            {projectType === option && (
+                                                <Check className="size-4 text-gray-600" />
+                                            )}
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
 
-                                <option value="custom-project">
-                                    Custom Project
-                                </option>
-                            </select>
+                            <input
+                                type="hidden"
+                                name="projectType"
+                                value={projectType}
+                                required
+                            />
+                        </div>                        
 
-                            <ChevronDown className="pointer-events-none absolute right-3 top-1/2 size-4 -translate-y-1/2 text-gray-600" />
-                        </div>
                     </div>
 
                     <div>
@@ -229,7 +258,7 @@ export default function ContactSection() {
                             name="message"
                             rows={4}
                             required
-                            placeholder="Tell me what you're looking to build, what you want it to achieve or anything else that might be helpful."
+                            placeholder="Describe your project, what you aim to achieve or anything else that might be helpful."
                             className="w-full border border-gray-200 rounded-lg p-2.5 text-sm text-gray-800 bg-gray-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-gray-400 transition resize-none"
                         />
                     </div>
