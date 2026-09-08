@@ -1,6 +1,8 @@
 import { FolderOpen, MessageSquarePlus } from "lucide-react";
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
+import { contact } from "../config/contact";
+
 export default function HeroSection() {
     return (
         <main className="flex flex-col items-center pt-32 max-md:px-4">
@@ -68,19 +70,19 @@ export default function HeroSection() {
             <div className="mt-10 flex items-center gap-6">
                 {/* WhatsApp */}
                 <a
-                href="https://wa.me/254725406004"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
-                aria-label="WhatsApp"
-                title="WhatsApp"
+                    href={`https://wa.me/${contact.whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
+                    aria-label="WhatsApp"
+                    title="WhatsApp"
                 >
-                <FaWhatsapp />
+                    <FaWhatsapp />
                 </a>
 
                 {/* Email */}
                 <a
-                    href="mailto:Joseph Onyango <jonyangomail@gmail.com>"
+                    href={`mailto:Joseph Onyango <${contact.email}>`}
                     className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
                     aria-label="Email"
                     title="Email"
@@ -90,7 +92,7 @@ export default function HeroSection() {
 
                 {/* LinkedIn */}
                 <a
-                    href="https://www.linkedin.com/in/josephonyango/"
+                    href={contact.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
@@ -102,7 +104,7 @@ export default function HeroSection() {
 
                 {/* GitHub */}
                 <a
-                    href="https://github.com/aogajoseph"
+                    href={contact.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-indigo-600 transition-transform transform hover:-translate-y-0.5 text-2xl"
@@ -111,8 +113,8 @@ export default function HeroSection() {
                 >
                     <FaGithub />
                 </a>
-
             </div>
+
         </main>
     );
 }

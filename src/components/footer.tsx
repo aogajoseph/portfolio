@@ -1,6 +1,8 @@
 import { ChevronUp } from "lucide-react";
 import { FaWhatsapp, FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
+import { contact } from "../config/contact";
+
 export default function Footer() {
   return (
     <footer className="mt-32 w-full border-t border-gray-200">
@@ -12,7 +14,7 @@ export default function Footer() {
 
           <nav className="flex items-center justify-center text-gray-700">
             <a
-              href="https://wa.me/254725406004"
+              href={`https://wa.me/${contact.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-gray-500"
@@ -25,7 +27,7 @@ export default function Footer() {
             <span className="mx-3 text-gray-500">·</span>
 
             <a
-              href="mailto:Joseph Onyango <jonyangomail@gmail.com>"
+              href={`mailto:Joseph Onyango <${contact.email}>`}
               className="transition-colors hover:text-gray-500"
               aria-label="Email"
               title="Email"
@@ -36,7 +38,7 @@ export default function Footer() {
             <span className="mx-3 text-gray-500">·</span>
 
             <a
-              href="https://linkedin.com/in/josephonyango"
+              href={contact.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-gray-500"
@@ -49,7 +51,7 @@ export default function Footer() {
             <span className="mx-3 text-gray-500">·</span>
 
             <a
-              href="https://github.com/aogajoseph"
+              href={contact.github}
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-gray-500"

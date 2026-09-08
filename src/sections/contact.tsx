@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from "react";
 
 import Section from "../components/section";
+import { contact } from "../config/contact";
 
 import { Check, ChevronDown, ChevronUp, Mail } from "lucide-react";
 
@@ -97,7 +98,7 @@ export default function ContactSection() {
                             <Mail className="size-4 shrink-0 text-gray-500 transition-transform duration-200 group-hover:scale-110" />
 
                             <a
-                                href="mailto:Joseph Onyango <jonyangomail@gmail.com>"
+                                href={`mailto:Joseph Onyango <${contact.email}>`}
                                 className="font-medium hover:underline decoration-gray-400 underline-offset-2"
                             >
                                 Send me Mail
@@ -108,7 +109,7 @@ export default function ContactSection() {
                             <FaWhatsapp className="size-4 shrink-0 text-emerald-500 transition-transform duration-200 group-hover:scale-110 group-hover:text-gray-600" />
 
                             <a
-                                href="https://wa.me/254725406004"
+                                href={`https://wa.me/${contact.whatsapp}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="font-medium hover:underline decoration-gray-400 underline-offset-2"
