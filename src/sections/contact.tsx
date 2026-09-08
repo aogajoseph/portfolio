@@ -8,6 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function ContactSection() {
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [status, setStatus] = useState<"success" | "error" | null>(null);
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -25,6 +26,8 @@ export default function ContactSection() {
         setIsSubmitting(true);
 
         try {
+            setStatus(null);
+        
             const response = await fetch("/api/contact", {
                 method: "POST",
                 headers: {
@@ -32,16 +35,24 @@ export default function ContactSection() {
                 },
                 body: JSON.stringify(data),
             });
-
+        
             if (!response.ok) {
                 throw new Error("Failed to send message.");
             }
-
+        
             form.reset();
-            alert("Message sent successfully!");
+            setStatus("success");
+        
+            setTimeout(() => {
+                setStatus(null);
+            }, 4000);
         } catch (error) {
             console.error(error);
-            alert("Something went wrong. Please try again.");
+            setStatus("error");
+        
+            setTimeout(() => {
+                setStatus(null);
+            }, 4000);
         } finally {
             setIsSubmitting(false);
         }
@@ -49,6 +60,22 @@ export default function ContactSection() {
 
     return (
         <Section id="contact" title="Contact">
+            {status && (
+                <div
+                    role="status"
+                    aria-live="polite"
+                    className={`fixed bottom-6 right-6 z-50 rounded-lg border px-4 py-3 text-sm font-medium shadow-lg ${
+                        status === "success"
+                            ? "border-emerald-200 bg-white text-emerald-700"
+                            : "border-red-200 bg-white text-red-700"
+                    }`}
+                >
+                    {status === "success"
+                        ? "Message sent successfully."
+                        : "Something went wrong. Please try again."}
+                </div>
+            )}
+
             <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full">
                 {/* Left Side: Context & Direct Contact */}
                 <div className="md:col-span-2 space-y-6 flex flex-col justify-between">
