@@ -7,7 +7,7 @@ export default function PricingSection() {
             badge: "Single-page Websites",
             price: "From $250",
             emoji: "🎯",
-            description: "Focused landing pages for specific products, campaigns or events, ideal for capturing leads."
+            description: "Focused landing pages for specific products, campaigns or events; ideal for capturing leads."
         },
         {
             title: "Business Webites",

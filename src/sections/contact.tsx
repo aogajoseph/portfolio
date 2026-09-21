@@ -84,12 +84,11 @@ export default function ContactSection() {
                 <div className="md:col-span-2 space-y-6 flex flex-col justify-between">
                     <div>
                         <h3 className="text-base font-semibold text-gray-800">
-                            Let's build something Great!
+                            Let's build something great!
                         </h3>
 
                         <p className="mt-2 text-gray-500 text-sm leading-relaxed">
-                            Have a project in mind or want to discuss an idea? Send me
-                            an email or message me on WhatsApp to get started.
+                            Have a project in mind or an idea you'd like to discuss? Send me an email or reach out on WhatsApp to get started.
                         </p>
                     </div>
 
