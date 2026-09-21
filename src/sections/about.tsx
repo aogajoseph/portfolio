@@ -9,7 +9,7 @@ export default function AboutSection() {
                 </p>
 
                 <p className="mt-2">
-                    Alongside client work, I’m building Globe Technologies — a Technology and Intellectual Property company creating software products, digital platforms, intellectual properties, franchises, creative media and other assets meant for global audiences.
+                    Alongside client work, I’m building Globe Technologies, a diversified innovation company that researches, develops and commercializes ideas into products, services and intellectual properties.
                 </p>
             </div>
         </Section>
