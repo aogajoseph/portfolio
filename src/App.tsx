@@ -11,10 +11,6 @@ import HeroSection from "./sections/hero";
 import ProjectsSection from "./sections/projects";
 import SkillsSection from "./sections/skills";
 
-// Pages
-import NeuroCareCaseStudy from "./projects/neurocare";
-import ComingSoon from "./projects/coming-soon";
-
 /* --------------------------------------------
    Home Page
 --------------------------------------------- */
@@ -41,8 +37,6 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/projects/neurocare" element={<NeuroCareCaseStudy />} />
-      <Route path="/projects/coming-soon" element={<ComingSoon />} />
     </Routes>
   );
 }
