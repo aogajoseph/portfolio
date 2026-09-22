@@ -88,7 +88,7 @@ export default function ContactSection() {
                         </h3>
 
                         <p className="mt-2 text-gray-500 text-sm leading-relaxed">
-                            Have a project in mind or an idea you'd like to discuss? Send me an email or reach out on WhatsApp to get started.
+                             Have a project in mind or an idea you'd like to discuss? Send me an email or reach out on WhatsApp to get started.
                         </p>
                     </div>
 
