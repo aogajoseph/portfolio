@@ -74,7 +74,7 @@ export default function ContactSection() {
                     }`}
                 >
                     {status === "success"
-                        ? "Message sent successfully."
+                        ? "Message sent successfully. I'll be in touch soon."
                         : "Something went wrong. Please try again."}
                 </div>
             )}

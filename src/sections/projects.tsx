@@ -64,7 +64,7 @@ function ProjectModal({ project, onClose }: ProjectModalProps) {
 
                 <p className="mt-3 text-sm leading-6 text-gray-600">
                     {isActive
-                        ? "This project is currently in active development. Please check back soon."
+                        ? "This project is currently in active development. Please again back soon."
                         : "This project is coming soon. It will be available after the current project is complete."}
                 </p>
 
@@ -169,8 +169,8 @@ export default function ProjectsSection() {
             description:
                 "A premium digital presence for celebrities and public figures, showcasing their personal brand, achievements, projects and exclusive content.",
             image: "/assets/darmian-kingston.png",
-            href: "/projects/coming-soon",
-            status: "active",
+            href: "https://darmian-kingston.vercel.app/",
+            status: "live",
         },
         {
             title: "Alora Kitchen",
@@ -179,7 +179,7 @@ export default function ProjectsSection() {
                 "A refined restaurant website designed to showcase culinary excellence, seasonal offerings, reservations and memorable dining experiences.",
             image: "/assets/alora-kitchen.png",
             href: "/projects/coming-soon",
-            status: "coming-soon",
+            status: "active",
         },
         {
             title: "Summit Properties",
