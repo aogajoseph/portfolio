@@ -178,8 +178,8 @@ export default function ProjectsSection() {
             description:
                 "A refined restaurant website designed to showcase culinary excellence, seasonal offerings, reservations and memorable dining experiences.",
             image: "/assets/alora-kitchen.png",
-            href: "/projects/coming-soon",
-            status: "active",
+            href: "https://alora-kitchen.vercel.app/",
+            status: "live",
         },
         {
             title: "Summit Properties",
