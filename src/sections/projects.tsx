@@ -160,7 +160,7 @@ export default function ProjectsSection() {
             description:
                 "An innovation company being developed to research, develop and commercialize ideas into products, services and intellectual properties.",
             image: "/assets/globe.png",
-            href: "https://globe-aoga-j.vercel.app/",
+            href: "https://globe-rosy-two.vercel.app/",
             status: "live",
         },
         {
