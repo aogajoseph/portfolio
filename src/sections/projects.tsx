@@ -187,8 +187,8 @@ export default function ProjectsSection() {
             description:
                 "A modern real estate website designed to simplify the discovery of premium properties and unlock exceptional investment opportunities.",
             image: "/assets/summit-properties.png",
-            href: "/projects/coming-soon",
-            status: "coming-soon",
+            href: "https://summit-properties-eight.vercel.app/",
+            status: "live",
         },
     ];
 
